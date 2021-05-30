@@ -1,0 +1,27 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+#container {
+    border: 5px solid green;
+    font-size: 0px;
+    height: 100vh;
+    
+}
+div.child {
+    display: inline-block;
+    vertical-align: top;
+    width: 6.25%;
+    height : 6.25%;
+    border: 2px solid black;
+    padding: 2px;
+
+}
+
+/* div.child:hover {
+    background-color: grey;
+} */
+.hovering {
+    background-color: grey;
+}
